@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+@layer base {
+   
+    body{
+        @apply font-[Montserrat];
+        @apply font-medium;
+        @apply bg-[#ecf0f3];
+        @apply tracking-wide;
+    }
+    h1,h2,h3,h4,h5,h6{
+        @apply font-bold;
+    }
+    h1{
+        @apply text-4xl sm:text-5xl md:text-6xl;
+    }
+    h2{
+        @apply text-3xl sm:text-4xl
+    }
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+
+    }
+   
+}

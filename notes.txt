@@ -1,0 +1,151 @@
+       <li className="p-4">
+            <a className="hover:border-b-2 border-[#5651e5]" href="/">Home</a>
+          </li>
+          <li className="p-4">
+            <a className="hover:border-b-2 border-[#5651e5]" href="/about">About</a>
+          </li>
+          <li className="p-4">
+            <a className="hover:border-b-2 border-[#5651e5]" href="/project">Project</a>
+          </li>
+          <li className="p-4">
+            <a className="hover:border-b-2 border-[#5651e5]" href="/skills">Skills</a>
+          </li>
+          <li className="p-4">
+            <a className="hover:border-b-2 border-[#5651e5]" href="/contact">Contact</a>
+          </li>
+
+
+          <div>
+            <img src={logo} alt="logo" style={{ width: "100px" }} />
+          </div>
+
+          flex w-full items-center justify-between
+
+
+
+            <div className="pt-30">
+          {/* Social Icons */}
+          <p className="text-sm uppercase tracking-widest p-4 text-[#5651e5] pt-5">
+            Let's connect!
+          </p>
+          <div>
+            <ul className="flex justify-between items-center">
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <a href="http://www.linkedin.com/in/osaro-imarhiagbe">
+                  <FaLinkedin style={{ color: "#5651e5" }} />
+                </a>
+              </li>
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <a href="http://github.com/kiddos97">
+                  <FaGithub style={{ color: "#5651e5" }} />
+                </a>
+              </li>
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <FaMailBulk style={{ color: "#5651e5" }} />
+              </li>
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <BsFillPeopleFill style={{ color: "#5651e5" }} />
+              </li>
+            </ul>
+          </div>
+
+
+          <div className="pt-30">
+          {/* Social Icons */}
+          <p className="text-sm uppercase tracking-widest p-4 text-[#5651e5] pt-5">
+            Let's connect!
+          </p>
+          <div>
+            <ul className="flex justify-between items-center">
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <a href="http://www.linkedin.com/in/osaro-imarhiagbe">
+                  <FaLinkedin style={{ color: "#5651e5" }} />
+                </a>
+              </li>
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <a href="http://github.com/kiddos97">
+                  <FaGithub style={{ color: "#5651e5" }} />
+                </a>
+              </li>
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <FaMailBulk style={{ color: "#5651e5" }} />
+              </li>
+              <li className="rounded-full shadow-xl shadow-gray-600 p-3 cursor-pointer hover:scale-110">
+                <BsFillPeopleFill style={{ color: "#5651e5" }} />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <ul style={{ color: `${linkColor}` }} className="hidden md:flex uppercase">
+            {links.map((link) =>{
+                return <NavLinks key={link.id} name={link.name} url_link={link.url}/>
+
+            })}
+        </ul>
+style={{background:"linear-gradient(180deg,#111132,#0c0c1d"}}
+
+            variants={sliderVariants}
+
+               <motion.div className='z-10'>
+                <motion.button 
+                onClick={handleClick}
+                className="border-2 rounded-lg p-4 border-[#5651e5] z-[10] text-[#5651e5] font-bold"
+                variants={textVariants} 
+                animate="scrollButton">Press me</motion.button>
+                <motion.button 
+                onClick={handleClick}
+                className="border-2 rounded-lg p-4 border-[#5651e5] text-[#5651e5] font-bold ml-10 bg-transparent cursor-pointer" 
+                variants={textVariants}  
+                animate="scrollButton">Press Me</motion.button>
+            </motion.div>
+
+
+<div className="w-[40px] h-[40px] rounded-full flex-shrink-0 mr-[20px] bg-gray-200">
+      hi
+    </div>
+
+    <div
+      
+      className="relative flex items-center justify-center h-auto sm:w-[50%] shadow-xl shadow-gray-900 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+        <img
+          style={{ width: "100%", height: "100%" }}
+          className="rounded-xl group-hover:opacity-10"
+          src={img}
+          alt="/"
+          
+        />
+        <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+          <h3 className="text-2xl font-bold tracking-wider text-center text-white">
+            {projectname}
+          </h3>
+          <p className="pb-4 pt-2 text-center font-bold text-white">
+            {projectdescription}
+          </p>
+  
+          <a href={link}>
+            <p className="text-center py-3 rounded-xl bg-white text-gray-700 font-bold cursor-pointer text-lg">
+              {button}
+            </p>
+          </a>
+        </div>
+      </div>
+
+
+        <div className='border-2 sm:w-[30%] p-10 rounded-lg hover:scale-105 ease-in duration-300'>
+        <div>
+          <h2 className='text-white mb-4'>Weather App</h2>
+        </div>
+        <p className='text-white'>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Animi consequuntur libero, ad dicta accusamus laudantium placeat nostrum minima eos quisquam vero dolore sunt aliquid id!
+        </p>
+        <div 
+        className='flex items-center justify-center mt-10 border-2 rounded-full p-2 bg-[#FF6F61] border-[#FF6F61] hover:opacity-50'>
+        <button 
+        onClick={handleClick}
+        className='text-black font-bold'>Press Me</button>
+        </div>
+        </div>
+
+
