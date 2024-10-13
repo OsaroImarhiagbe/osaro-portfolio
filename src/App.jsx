@@ -6,7 +6,8 @@ import About from './components/About';
 import NaviBar from './components/NaviBar';
 import Project from './components/Project';
 import Skills from './components/Skills';
-
+import Cloud_Page from './components/Cloud_Page';
+import Contact from './components/Contact';
 
 function App() {
   useEffect(() => {
@@ -43,8 +44,16 @@ function App() {
           <Route path="/about" element={
             <>
             <About />
-            <Parallax/>
             </>} />
+            {/* Cloud Page has its own Route */}
+            <Route path='/cloud_page' element={
+              <Cloud_Page/>
+            }
+            />
+            {/* Contact has its own Route*/}
+            <Route path='/contact' element={
+              <Contact/>
+            }/>
         </Routes>
       </Router>
     );

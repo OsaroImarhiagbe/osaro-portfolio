@@ -31,7 +31,7 @@ const Skills = () => {
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="p-6 shadow-xl shadow-gray-600 rounded-xl hover:scale-105 ease-in duration-300 "
+                  className="p-6  hover:scale-105 ease-in duration-300 "
                 >
                   <Skill {...skill} />
                 </div>

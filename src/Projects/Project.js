@@ -16,7 +16,7 @@ export const Projects = [
     {
         id:2,
         projectname: "Cloud",
-        projectdescription: "React js project",
+        projectdescription: 'This application was developed using React.js, TypeScript, and Tailwind CSS',
         img: cloudd,
         button: "More Info",
         link: "/cloud_page"
@@ -40,7 +40,7 @@ export const Projects = [
     {
         id:5,
         projectname: "Cloud",
-        projectdescription: "React js project",
+        projectdescription: 'React js',
         img: cloudd,
         button: "More Info",
         link: "/cloud_page"

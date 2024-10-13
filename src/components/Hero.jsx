@@ -48,9 +48,13 @@ const handleClick = () => {
 }
 const Hero = () => { 
   return (
-    <div style={{backgroundColor:"#0c0c1d"}} className=' z-[100] h-screen w-full pt-60 overflow-hidden relative p-6 md:h-screen'>
+    <div className=' z-[100] h-screen w-full pt-60 overflow-hidden relative p-6 md:h-screen bg-gradient-to-b from-[#111132] to-[#0c0c1d]'>
         <div className='max-w-[1366px] h-[100%] mx-auto z-10'>
-            <motion.div variants={textVariants} initial="initial" animate="animate" className='flex flex-col gap-6 justify-center text-[#D3D3D3] font-bold text-lg'>
+            <motion.div 
+            variants={textVariants} 
+            initial="initial" 
+            animate="animate" 
+            className='flex flex-col gap-6 justify-center text-[#D3D3D3] font-bold text-lg'>
             Hi, I'm <span className="text-[#5651e5] font-bold text-4xl sm:text-7xl mb-4"><motion.h2 variants={textVariants}>Emmanuel</motion.h2></span>
             <motion.h1 variants={textVariants} className='text-[#D3D3D3] text-4xl sm:text-7xl mb-4'>A Full Stack Developer</motion.h1>
             <motion.p variants={textVariants} className='break-all text-sm sm:text-lg mb-8 text-[#D3D3D3]'>I'm a front-end web developer specialzing in building exceptional
