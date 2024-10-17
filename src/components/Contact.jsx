@@ -3,6 +3,29 @@ import {motion} from 'framer-motion'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
+// const iconVariants = {
+//   initial:{
+//       x:500,
+//       opacity:0
+//   },
+//   animate:{
+//       x:0,
+//       opacity:1,
+//       transition:{
+//           duration:1,
+//           staggerChildern:0.1,
+//       }
+//   },
+//   scrollButton:{
+//       opacity:0,
+//       y:10,
+//       transition:{
+//           duration:10,
+//           repeat:Infinity
+//       }
+//   }
+// }
+
 const textVariants = {
     initial:{
         x:-500,
@@ -47,9 +70,18 @@ const Contact = () => {
                     Got a project or just want to say hi? 
                     Send me a message, and I'll get back to you soon!
                     </p>
-                    <div className='mt-20 flex'>
-                        <FaPhoneAlt style={{ color: "00FFFF" }} size={60}/>
+                    <div
+                    className='mt-20 flex'>
+                      <motion.div
+                      whileHover={{scale:1.1}}
+                      >
+                      <FaPhoneAlt style={{ color: "00FFFF" }} size={60}/>
+                      </motion.div>
+                        <motion.div
+                        whileHover={{scale:1.1}}
+                        >
                         <MdEmail className='ml-20'style={{ color: "#FF6F61" }} size={60}/>
+                        </motion.div>
                     </div>
             </motion.div>
             <motion.div

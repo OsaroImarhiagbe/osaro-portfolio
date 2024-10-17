@@ -1,29 +1,7 @@
 import { link } from 'framer-motion/client'
 import React from 'react'
 import { FaCircleArrowDown } from "react-icons/fa6";
-import {motion} from 'framer-motion'
-const textVariants = {
-  initial:{
-      x:500,
-      opacity:0
-  },
-  animate:{
-      x:0,
-      opacity:1,
-      transition:{
-          duration:1,
-          staggerChildern:0.1,
-      }
-  },
-  scrollButton:{
-      opacity:0,
-      y:10,
-      transition:{
-          duration:10,
-          repeat:Infinity
-      }
-  }
-}
+
 const Card = ({name,description,click,link,button}) => {
   return (
     <div className='border-[0.5px] border-solid border-[#D3D3D3] sm:w-[30%] p-6 rounded-lg hover:scale-105 ease-in duration-300'>

@@ -68,9 +68,6 @@ const About = () => {
            my portfolio showcases the blend of creativity, technical ability, 
            and the relentless drive I bring to every project.
           </p>
-          <p className="py-2 text-[#D3D3D3] underline cursor-pointer">
-            <a href="/project"> Check out some of my latest work</a>
-          </p>
         </motion.div>
 
         <div >
