@@ -7,11 +7,11 @@ const IconLinks = ({url_link,name}) => {
     const getIcon = () => {
         switch(name){
             case 'FaLinkedin':
-                return <FaLinkedin style={{ color: "00FFFF" }} size={20}/>
+                return <FaLinkedin style={{ color: "00FFFF" }} size={25}/>
             case 'FaGithub':
-                return <FaGithub style={{ color: "#FF6F61" }} size={20}/>
+                return <FaGithub style={{ color: "#FF6F61" }} size={25}/>
             case 'IoMailSharp':
-                return <IoMailSharp style={{ color: "#5651e5" }} size={20}/>
+                return <IoMailSharp style={{ color: "#5651e5" }} size={25}/>
             default:
                 return null;
         }

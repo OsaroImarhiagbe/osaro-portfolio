@@ -23,9 +23,9 @@ const Project = () => {
               return <Card 
               key={project.id} 
               name={project.projectname} 
-              description={project.projectdescription}
               link={project.link} 
-              click={handleClick}/>
+              click={handleClick}
+              button={project.button}/>
             })}
       </div>
     </div>

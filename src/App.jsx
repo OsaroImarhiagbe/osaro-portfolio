@@ -8,6 +8,8 @@ import Project from './components/Project';
 import Skills from './components/Skills';
 import Cloud_Page from './components/Cloud_Page';
 import Contact from './components/Contact';
+import Portfolio_page from './components/Portfolio_page';
+import WeatherApp_page from './components/WeatherApp_page';
 
 function App() {
   useEffect(() => {
@@ -54,6 +56,16 @@ function App() {
             <Route path='/contact' element={
               <Contact/>
             }/>
+            {/* Portfolio page has its own route */}
+            <Route path='/portfolio_page' element={
+              <Portfolio_page/>
+            }
+            />
+            {/* Weather App page has its own route */}
+            <Route path='/weatherapp_page' element={
+              <WeatherApp_page/>
+            }
+            />
         </Routes>
       </Router>
     );

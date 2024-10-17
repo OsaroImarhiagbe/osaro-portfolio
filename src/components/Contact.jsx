@@ -34,7 +34,7 @@ const textVariants = {
   
 const Contact = () => {
   return (
-    <div className="w-full  lg:h-screen pt-10 bg-gradient-to-b from-[#111132] to-[#0c0c1d]">
+    <div className="w-full h-screen pt-10 bg-gradient-to-b from-[#111132] to-[#0c0c1d]">
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full  flex items-center justify-between'>
             <motion.div
             initial='initial'
@@ -48,8 +48,8 @@ const Contact = () => {
                     Send me a message, and I'll get back to you soon!
                     </p>
                     <div className='mt-20 flex'>
-                        <FaPhoneAlt style={{ color: "00FFFF" }} size={40}/>
-                        <MdEmail className='ml-20'style={{ color: "#FF6F61" }} size={40}/>
+                        <FaPhoneAlt style={{ color: "00FFFF" }} size={60}/>
+                        <MdEmail className='ml-20'style={{ color: "#FF6F61" }} size={60}/>
                     </div>
             </motion.div>
             <motion.div
@@ -97,11 +97,11 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col py-2">
                   <textarea
-                    className="rounded-lg p-2 border-[0.5px] bg-transparent border-gray-300"
+                    className="rounded-lg p-2 border-[0.5px] bg-transparent border-gray-300 text-white"
                     placeholder="Message..."
                     rows={10}
                     name="Message"
-                  ></textarea>
+                  />
                 </div>
                 <button className="w-full border-[0.5px] rounded-xl p-4 text-gray-100 mt-4">
                   Send Message

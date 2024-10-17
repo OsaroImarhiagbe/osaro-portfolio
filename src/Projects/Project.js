@@ -6,7 +6,7 @@ import weatherapp from '../assets/weatherApp.png'
 export const Projects = [
     {
         id:1,
-        projectname: "Portfolio",
+        projectname: "Portfolio Page",
         projectdescription: "React js project",
         img: portfolio,
         button: "More Info",
@@ -15,7 +15,7 @@ export const Projects = [
     },
     {
         id:2,
-        projectname: "Cloud",
+        projectname: "Cloud Company",
         projectdescription: 'This application was developed using React.js, TypeScript, and Tailwind CSS',
         img: cloudd,
         button: "More Info",
@@ -23,15 +23,15 @@ export const Projects = [
     },
     {
         id:3,
-        projectname: "Cloud",
-        projectdescription: "React js project",
+        projectname: "Weather App",
+        projectdescription: "React Native project",
         img: cloudd,
         button: "More Info",
-        link: "/cloud_page"
+        link: "/weatherapp_page"
     },
     {
         id:4,
-        projectname: "Portfolio",
+        projectname: "Portfolio Page",
         projectdescription: "React js project",
         img: portfolio,
         button: "More Info",
@@ -39,7 +39,7 @@ export const Projects = [
     },
     {
         id:5,
-        projectname: "Cloud",
+        projectname: "Cloud Company",
         projectdescription: 'React js',
         img: cloudd,
         button: "More Info",
