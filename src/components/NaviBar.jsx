@@ -61,7 +61,7 @@ const NaviBar = () => {
           ) : (
             <motion.button
               onClick={handleClick}
-              className='fixed rounded-full top-[25px] left-[25px] h-[50px] w-[50px] flex justify-center items-center text-white cursor-pointer'
+              className='fixed top-[25px] left-[25px] h-[50px] w-[50px] flex justify-center items-center text-white cursor-pointer'
             >
               <FaBars style={{ color: "#5651e5" }} />
             </motion.button>
