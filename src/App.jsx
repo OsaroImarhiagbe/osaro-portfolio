@@ -1,4 +1,4 @@
-import { useState,useEffect,useRef } from 'react'
+import { useEffect,lazy,Suspense } from 'react'
 import Hero from './components/Hero';
 import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import Parallax from './components/Parallax';
@@ -10,20 +10,12 @@ import Cloud_Page from './components/Cloud_Page';
 import Contact from './components/Contact';
 import Portfolio_page from './components/Portfolio_page';
 import WeatherApp_page from './components/WeatherApp_page';
+import DevGuide_page from './components/DevGuide_page';
 
 function App() {
   useEffect(() => {
     document.title = "Portfolio";
 
-    //const link = document.createElement("link");
-    // link.rel = "icon";
-    // link.href = "public/favicon.ico";
-
-    // document.head.appendChild(link);
-
-    // return () => {
-    //   document.head.removeChild(link);
-    // };
   }, []);
 
   
@@ -66,6 +58,9 @@ function App() {
               <WeatherApp_page/>
             }
             />
+            <Route path='/devguides_page' element={
+              <DevGuide_page/>
+            }/>
         </Routes>
       </Router>
     );

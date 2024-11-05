@@ -31,18 +31,10 @@ export const Projects = [
     },
     {
         id:4,
-        projectname: "Portfolio Page",
-        projectdescription: "React js project",
+        projectname: "DevGuides App",
+        projectdescription: "React Native project",
         img: portfolio,
         button: "More Info",
-        link: "/portfolio_page"
-    },
-    {
-        id:5,
-        projectname: "Cloud Company",
-        projectdescription: 'React js',
-        img: cloudd,
-        button: "More Info",
-        link: "/cloud_page"
+        link: "/devguides_page"
     },
 ]
