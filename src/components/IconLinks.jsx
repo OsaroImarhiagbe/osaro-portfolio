@@ -26,8 +26,6 @@ const IconLinks = ({url_link,name}) => {
         >
           <li>
             <a 
-              
-              
               href={url_link}
             >
               {getIcon()}
