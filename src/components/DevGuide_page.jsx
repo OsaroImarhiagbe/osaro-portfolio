@@ -58,7 +58,7 @@ const DevGuide_page = () => {
                 </div>
               </div>
             </div>
-            <a href="/">
+            <a href="#/">
               <p className="underline cursor-pointer">Back</p>
             </a>
           </div>

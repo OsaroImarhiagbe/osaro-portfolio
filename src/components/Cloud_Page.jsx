@@ -63,7 +63,7 @@ const Cloud_Page = () => {
                 </div>
               </div>
             </div>
-            <a href="/">
+            <a href="#/">
               <p className="underline cursor-pointer">Back</p>
             </a>
           </div>
