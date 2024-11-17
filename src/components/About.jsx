@@ -55,16 +55,15 @@ const About = () => {
             // I am not your normal developer.
           </p>
           <p className="py-2 text-[#D3D3D3] md:text-lg">
-          I'm a Full-Stack Developer based in Austin, TX, currently honing my skills as a software developer 
-          at General Motors with over <span className="text-lg">2+ years</span> of hands-on experience. 
+          I'm a Full-Stack Developer based in Austin, TX, I previously worked at General Motors with over <span className="text-lg">3+ years</span> of hands-on experience. 
           My journey in tech is driven by a love for 
           innovation and building impactful solutions. 
           At GM, I've had the opportunity to contribute to major projects, 
-          including the SAS DMP initiative and, more recently, the DMP Merkle project.
+          including the SAS platform and, more recently, Onstar Merkle as an Data Engineer.
           </p>
           <p className="py-2 text-[#D3D3D3] md:text-lg">
           Alongside my work, I pursue Front-End development with a deep passion for 
-          creating seamless digital experiences. With <span className="text-lg"> 2+ years</span>of Front-End expertise,
+          creating seamless digital experiences. With <span className="text-lg"> 2+ years</span> of Front-End expertise,
            my portfolio showcases the blend of creativity, technical ability, 
            and the relentless drive I bring to every project.
           </p>

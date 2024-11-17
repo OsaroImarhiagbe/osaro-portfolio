@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import mountains from '../assets/mountains.png';
 import planets from '../assets/planets.png';
 import stars from '../assets/stars.png';
+import alien from '../assets/alien.png'
+import astro from '../assets/astronaut.png'
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 const Parallax = () => {
@@ -63,8 +65,29 @@ const Parallax = () => {
                     x:ybg// Apply ybg for vertical movement
                 }}
             />
-            <motion.div style={{y:ytext}} className='text-[#D3D3D3] text-9xl font-bold'> 
-                <p>Innovate</p>
+            <motion.div style={{y:ytext}} className='text-[#D3D3D3] text-9xl font-bold flex'> 
+                <motion.img
+                 animate={{
+                    scale:[1,0.5,1]
+                 }}
+                  transition={{
+                    duration: 2,
+                    ease: "easeInOut",
+                    times: [0, 0.2, 0.5, 0.8, 1],
+                    repeat: Infinity,
+                  }}
+                src={alien} alt='alien'/>
+                <motion.img
+                animate={{
+                    scale:[1,0.5,1]
+                }}
+                  transition={{
+                    duration: 2,
+                    ease: "easeInOut",
+                    times: [0, 0.2, 0.5, 0.8, 1],
+                    repeat: Infinity,
+                  }}
+                src={astro} alt='alien'/>
             </motion.div>
         </div>
     );

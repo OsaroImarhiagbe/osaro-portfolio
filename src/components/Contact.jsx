@@ -3,28 +3,6 @@ import {motion} from 'framer-motion'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-// const iconVariants = {
-//   initial:{
-//       x:500,
-//       opacity:0
-//   },
-//   animate:{
-//       x:0,
-//       opacity:1,
-//       transition:{
-//           duration:1,
-//           staggerChildern:0.1,
-//       }
-//   },
-//   scrollButton:{
-//       opacity:0,
-//       y:10,
-//       transition:{
-//           duration:10,
-//           repeat:Infinity
-//       }
-//   }
-// }
 
 const textVariants = {
     initial:{
@@ -72,16 +50,6 @@ const Contact = () => {
                     </p>
                     <div
                     className='mt-20 flex'>
-                      <motion.div
-                      whileHover={{scale:1.1}}
-                      >
-                      <FaPhoneAlt style={{ color: "00FFFF" }} size={60}/>
-                      </motion.div>
-                        <motion.div
-                        whileHover={{scale:1.1}}
-                        >
-                        <MdEmail className='ml-20'style={{ color: "#FF6F61" }} size={60}/>
-                        </motion.div>
                     </div>
             </motion.div>
             <motion.div
@@ -96,7 +64,7 @@ const Contact = () => {
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <input
-                      className="rounded-lg p-2 border-[0.5px] bg-transparent flex border-gray-300"
+                      className="rounded-lg p-2 border-[0.5px] bg-transparent flex border-gray-300 text-white"
                       type="text"
                       placeholder="Name..."
                       name="name"
@@ -104,7 +72,7 @@ const Contact = () => {
                   </div>
                   <div className="flex flex-col">
                     <input
-                      className="rounded-lg p-2 border-[0.5px] bg-transparent flex biorder-gray-300"
+                      className="rounded-lg p-2 border-[0.5px] bg-transparent flex biorder-gray-300 text-white"
                       type="text"
                       placeholder="Phone Number..."
                       name="Phone Number"
@@ -113,7 +81,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col py-2">
                   <input
-                    className="rounded-lg p-2 border-[0.5px] bg-transparent flex border-gray-300"
+                    className="rounded-lg p-2 border-[0.5px] bg-transparent flex border-gray-300 text-white"
                     type="email"
                     placeholder="Email..."
                     name="Email"
@@ -121,7 +89,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col py-2">
                   <input
-                    className="rounded-lg p-2 border-[0.5px] bg-transparent flex border-gray-300"
+                    className="rounded-lg p-2 border-[0.5px] bg-transparent flex border-gray-300 text-white"
                     type="text"
                     placeholder="Subject..."
                     name="Subject"
@@ -135,8 +103,8 @@ const Contact = () => {
                     name="Message"
                   />
                 </div>
-                <button className="w-full border-[0.5px] rounded-xl p-4 text-gray-100 mt-4">
-                  Send Message
+                <button className="w-full border-[0.5px] rounded-xl p-4 text-white mt-4 bg-transparent hover:bg-white">
+                  <p className='text-white hover:text-black'>Send Message</p>
                 </button>
               </form>
             </div>

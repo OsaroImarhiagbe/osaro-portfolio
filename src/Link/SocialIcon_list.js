@@ -1,5 +1,4 @@
-import { FaLinkedin,FaGithub } from "react-icons/fa6";
-import { BsFillPeopleFill } from "react-icons/bs";
+
 const icon = [
     {
         id:1,
@@ -13,7 +12,7 @@ const icon = [
     {
         id:3,
         name:'IoMailSharp',
-        icon_url:""}
+        icon_url:"/contact"}
 ]
 
 export default icon

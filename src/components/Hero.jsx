@@ -1,5 +1,5 @@
 import React from 'react'
-import portrait from '../assets/portrait.png'
+import astro from '../assets/astronaut.png'
 import { animate,motion } from 'framer-motion'
 
 
@@ -70,8 +70,8 @@ const Hero = () => {
             </motion.div>
         </div>
        
-            {/*Image Container */}
-        <img  className='hidden md:block right-0 top-40 absolute h-[100%] z-0 object-cover'src={portrait} alt='portrait'/>
+            {/* Image Container 
+        <img  className='hidden md:block right-0 top-40 absolute h-[100%] z-0 object-cover'src={astro} alt='portrait'/> */}
     
         
     </div>

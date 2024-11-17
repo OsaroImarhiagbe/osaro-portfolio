@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaLinkedin,FaGithub } from "react-icons/fa6";
-import { BsFillPeopleFill } from "react-icons/bs";
 import { IoMailSharp } from "react-icons/io5";
 const IconLinks = ({url_link,name}) => {
 
