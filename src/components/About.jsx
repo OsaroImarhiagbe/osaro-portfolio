@@ -55,7 +55,7 @@ const About = () => {
             // I am not your normal developer.
           </p>
           <p className="py-2 text-[#D3D3D3] md:text-lg">
-          I'm a Full-Stack Developer based in Austin, TX, I previously worked at General Motors with over <span className="text-lg">3+ years</span> of hands-on experience. 
+          I'm a Full-Stack Developer based in Austin, TX. I previously worked at General Motors with over <span className="text-lg">3+ years</span> of hands-on experience. 
           My journey in tech is driven by a love for 
           innovation and building impactful solutions. 
           At GM, I've had the opportunity to contribute to major projects, 
