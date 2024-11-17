@@ -12,7 +12,7 @@ const icon = [
     {
         id:3,
         name:'IoMailSharp',
-        icon_url:"/contact"}
+        icon_url:"#/contact"}
 ]
 
 export default icon

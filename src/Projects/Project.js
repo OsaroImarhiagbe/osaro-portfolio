@@ -10,7 +10,7 @@ export const Projects = [
         projectdescription: "React js project",
         img: portfolio,
         button: "More Info",
-        link: "/portfolio_page"
+        link: "#/portfolio_page"
 
     },
     {
@@ -19,7 +19,7 @@ export const Projects = [
         projectdescription: 'This application was developed using React.js, TypeScript, and Tailwind CSS',
         img: cloudd,
         button: "More Info",
-        link: "/cloud_page"
+        link: "#/cloud_page"
     },
     {
         id:3,
@@ -27,7 +27,7 @@ export const Projects = [
         projectdescription: "React Native project",
         img: cloudd,
         button: "More Info",
-        link: "/weatherapp_page"
+        link: "#/weatherapp_page"
     },
     {
         id:4,
@@ -35,6 +35,6 @@ export const Projects = [
         projectdescription: "React Native project",
         img: portfolio,
         button: "More Info",
-        link: "/devguides_page"
+        link: "#/devguides_page"
     },
 ]

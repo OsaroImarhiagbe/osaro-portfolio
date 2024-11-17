@@ -35,7 +35,7 @@ function App() {
             </>
           } />
           {/* About page has its own route */}
-          <Route path="#/about" element={
+          <Route path="/about" element={
             <>
             <About />
             </>} />
