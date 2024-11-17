@@ -1,6 +1,6 @@
 import { useEffect,lazy,Suspense } from 'react'
 import Hero from './components/Hero';
-import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import { HashRouter as Router,Routes, Route } from "react-router-dom";
 import Parallax from './components/Parallax';
 import About from './components/About';
 import NaviBar from './components/NaviBar';
