@@ -56,7 +56,7 @@ const Hero = () => {
             animate="animate" 
             className='flex flex-col gap-6 justify-center text-[#D3D3D3] font-bold text-lg'>
             Hi, I'm <span className="text-[#5651e5] font-bold text-4xl sm:text-7xl mb-4"><motion.h2 variants={textVariants}>Emmanuel</motion.h2></span>
-            <motion.h1 variants={textVariants} className='text-[#D3D3D3] text-4xl sm:text-7xl mb-4'>A Front- End Developer</motion.h1>
+            <motion.h1 variants={textVariants} className='text-[#D3D3D3] text-4xl sm:text-7xl mb-4'>A Front-End Developer</motion.h1>
             <motion.p variants={textVariants} className='break-all text-sm sm:text-lg mb-8 text-[#D3D3D3]'>I'm a front-end developer specialzing in building exceptional
             digital experience.<br/>Currently I'm focused on building responsive
             front-end applications while incorporating back-end technologies.</motion.p>
