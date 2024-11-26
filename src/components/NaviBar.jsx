@@ -38,9 +38,9 @@ const NaviBar = () => {
       {/* Icons (Positioned in Navbar) */}
       <div className='fixed top-0 right-0 w-full flex items-center justify-end p-10 z-[1000]'>
         <div className='flex items-center justify-center w-[300px]'>
-          {icon.map((icons) => (
-            <IconLinks key={icons.id} name={icons.name} url_link={icons.icon_url}/>
-          ))}
+          {icon.map((icons) => {
+             return <IconLinks key={icons.id} name={icons.name} url_link={icons.icon_url}/>
+          })}
         </div>
       </div>
       {/* Sidebar */}
@@ -68,9 +68,9 @@ const NaviBar = () => {
           )}
 
           <ul className="absolute top-[100px] w-[230px] p-6">
-            {links.map((item) => (
-                <NavLinks key={item.id} name={item.name} url_link={item.url}/>
-            ))}
+            {links.map((item) => {
+              return <NavLinks key={item.id} name={item.name} url_link={item.url}/>
+            })}
           </ul>
         </div>
       </motion.div>
